@@ -1,0 +1,36 @@
+.menu{
+    list-style:none;
+}
+
+.menu li{
+    width:269px;
+    font-size: 20px;
+    font-family: 'Economica', sans-serif;
+    margin-top:5px;
+    background: #2F2E2E;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.menu li:hover{
+    -webkit-transform:translateX(25px);
+}
+
+.menu li a{
+
+    width:269px;
+    padding:10px;
+    text-decoration: none;
+
+    position: relative;
+    color: #f0f0f0;
+    font-weight: bold;
+    display: block;
+}
+
+.menu li a:hover{
+    color: #aaccaa;
+}
+
+.login-link-container {
+    text-align: right;
+}
